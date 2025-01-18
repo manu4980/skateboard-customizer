@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: settings.data.site_title,
     description: settings.data.meta_description,
     openGraph: {
-      images: settings.data.fallback_og_image.url ?? undefined,
+      images: settings.data.fall_og_image.url ?? undefined,
     },
   };
 }
